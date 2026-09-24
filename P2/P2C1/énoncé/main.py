@@ -29,7 +29,7 @@ elif operation == "/":
     # Vérifie si la variable `nombre2` n'est pas nulle pour la division
     if nombre2 == 0:
         print("Erreur: impossible de diviser par zéro.")
-        raise SystemExit("Fin du programme")
+        raise SystemExit("Fin du programme") 
 
     resultat = round(nombre1 / nombre2, 2)
 
